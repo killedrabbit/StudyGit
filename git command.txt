@@ -39,3 +39,10 @@ git commit -m "message"
 
 (13)ssh-keygen -t rsa -C "youremail@example.com"
 在本地仓库创建一个SSH Key，包含一个公钥和一个私钥
+
+(14)git remote add origin git@server-name:path/repo-name.git
+将本地库，关联一个远程库
+git remote add origin git@github.com:killedrabbit/StudyGit.git
+
+(15)git push -u origin master
+把本地master分支的最新修改推送至远程库
