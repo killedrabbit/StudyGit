@@ -1,0 +1,38 @@
+(1)git init 
+将当前目录初始化成一个版本库
+
+(2)git add [filename.c]
+添加一个文件到暂存区，stage area
+
+(3)git commit -m ["message"]
+将暂存区的文件提交到仓库，repository
+
+(4)git status
+查看仓库当前的状态，哪些文件被修改了
+
+(5)git log
+显示从最近到最远的提交日志
+
+(6)git log --pretty=oneline
+显示从最近到最远的提交日志，只显示一行
+
+(7)git reset --hard [commitid]
+回退到某个历史版本
+
+(8)git reset --hard HEAD^
+回退到上一个历史版本
+git reset --hard HEAD^10
+回退到前100个版本
+
+(9)git reflog
+记录每一次版本库指令
+
+(10)git checkout -- [filename.c]
+撤销工作区的修改，恢复到暂存区或者版本库
+
+(11)git reset HEAD [filename.c]
+撤销暂存区的修改，等价于unstage changes，工作区的内容保持不变
+
+(12)git rm [filename.c]
+git commit -m "message"
+将某文件从版本库移除并删掉
