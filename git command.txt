@@ -36,3 +36,6 @@ git reset --hard HEAD^10
 (12)git rm [filename.c]
 git commit -m "message"
 将某文件从版本库移除并删掉
+
+(13)ssh-keygen -t rsa -C "youremail@example.com"
+在本地仓库创建一个SSH Key，包含一个公钥和一个私钥
